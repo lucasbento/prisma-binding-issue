@@ -1,0 +1,17 @@
+const {
+  DATABASE_PORT = '',
+  DATABASE_USER = '',
+  DATABASE_PASSWORD = '',
+  PRISMA_ENDPOINT = '',
+  PRISMA_SECRET = '',
+  APP_SECRET = '',
+} = process.env;
+
+export default {
+  DATABASE_PORT,
+  DATABASE_USER,
+  DATABASE_PASSWORD,
+  PRISMA_ENDPOINT,
+  PRISMA_SECRET,
+  APP_SECRET,
+};

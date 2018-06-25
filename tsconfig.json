@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext", "dom"
+    ],
+    "rootDirs": [
+      "src",
+      "generated"
+    ],
+    "outDir": "dist",
+    "strict": true,
+    "strictFunctionTypes": false,
+    "pretty": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": ["**/*.ts"]
+}
